@@ -1,0 +1,101 @@
+Fabian Astorga Cerdas
+2014040808
+mar  6 ago 00:29:51 CST 2019
+crimsonking-ThinkPad-T440p
+4.15.0-55-generic
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+crimson+  1579  0.0  0.1  77140  8212 ?        Ss   ago03   0:00 /lib/systemd/systemd --user
+crimson+  1580  0.0  0.0 261748  2960 ?        S    ago03   0:00 (sd-pam)
+crimson+  1597  0.0  0.1 288856  8156 ?        Sl   ago03   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+crimson+  1600  0.0  0.3 505748 24152 ?        Ssl  ago03   0:00 mate-session
+crimson+  1631  0.0  0.0  51720  6036 ?        Ss   ago03   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+crimson+  1651  0.0  0.0      0     0 ?        Z    ago03   0:00 [xbrlapi] <defunct>
+crimson+  1681  0.0  0.0  11304   320 ?        Ss   ago03   0:00 /usr/bin/ssh-agent /usr/bin/im-launch mate-session
+crimson+  1693  0.0  0.0 292272  7244 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfsd
+crimson+  1698  0.0  0.0 416116  5408 ?        Sl   ago03   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+crimson+  1707  0.0  0.0 349492  6464 ?        Ssl  ago03   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+crimson+  1712  0.0  0.0  50052  4300 ?        S    ago03   0:01 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+crimson+  1714  0.0  0.0 220784  6980 ?        Sl   ago03   0:04 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+crimson+  1716  0.0  0.0 188148  5456 ?        Sl   ago03   0:00 /usr/lib/dconf/dconf-service
+crimson+  1724  0.0  0.4 1795700 37200 ?       Sl   ago03   0:12 /usr/bin/mate-settings-daemon
+crimson+  1729  0.0  0.4 820684 35288 ?        Sl   ago03   0:16 marco --no-composite
+crimson+  1735  0.0  0.4 1007516 33940 ?       Sl   ago03   0:01 mate-panel
+crimson+  1742  1.7  0.4 7661480 37544 ?       S<l  ago03  60:41 /usr/bin/pulseaudio --start --log-target=syslog
+crimson+  1746  0.0  1.3 1741720 102612 ?      Sl   ago03   0:07 caja
+crimson+  1751  0.0  0.4 864208 36372 ?        Sl   ago03   0:19 /usr/lib/mate-panel/wnck-applet
+crimson+  1752  0.0  0.3 787096 28212 ?        Sl   ago03   0:00 /usr/lib/mate-applets/trashapplet
+crimson+  1754  0.0  1.0 1032896 79032 ?       Sl   ago03   0:03 /usr/lib/x86_64-linux-gnu/brisk-menu//brisk-menu
+crimson+  1770  0.0  0.4 861520 35500 ?        Sl   ago03   0:03 /usr/lib/mate-panel/clock-applet
+crimson+  1771  0.0  0.4 999592 35208 ?        Sl   ago03   0:02 /usr/lib/mate-indicator-applet/mate-indicator-applet-complete
+crimson+  1772  0.0  0.3 835804 31228 ?        Sl   ago03   0:00 /usr/lib/mate-panel/notification-area-applet
+crimson+  1773  0.0  0.0 368600  7640 ?        Sl   ago03   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+crimson+  1795  0.0  0.2 509020 21744 ?        Sl   ago03   0:00 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+crimson+  1809  0.0  0.6 665616 52512 ?        Sl   ago03   0:03 mate-screensaver
+crimson+  1811  0.0  0.0 204864  6328 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfsd-metadata
+crimson+  1816  0.0  0.3 599560 26720 ?        Sl   ago03   0:01 update-notifier
+crimson+  1829  0.0  0.4 673968 33928 ?        Sl   ago03   0:08 nm-applet
+crimson+  1840  0.0  0.2 516656 23096 ?        Sl   ago03   0:01 mate-maximus
+crimson+  1848  0.0  0.6 674808 49148 ?        Sl   ago03   0:00 /usr/bin/python3 /usr/bin/indicator-stickynotes
+crimson+  1857  0.0  0.4 273440 38768 ?        Sl   ago03   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+crimson+  1864  0.0  0.4 790048 32192 ?        Sl   ago03   0:00 /usr/lib/deja-dup/deja-dup-monitor
+crimson+  1867  0.0  0.6 650740 52472 ?        Sl   ago03   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+crimson+  1880  0.0  0.4 799648 31584 ?        Sl   ago03   0:03 mate-power-manager
+crimson+  1889  0.0  0.0 579652  7284 ?        Sl   ago03   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+crimson+  1891  0.0  0.1 373652  8056 ?        Sl   ago03   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+crimson+  1895  0.0  0.0 975000  7464 ?        Sl   ago03   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+crimson+  1896  0.0  0.1 1019732 12296 ?       Sl   ago03   0:01 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+crimson+  1898  0.0  0.1 391424 10888 ?        Sl   ago03   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+crimson+  1938  0.0  0.1 306828  9244 ?        Ssl  ago03   0:01 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+crimson+  1965  0.0  0.0 379012  7840 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+crimson+  1977  0.0  0.0 274248  6100 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+crimson+  1982  0.0  0.0 276040  6172 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+crimson+  1987  0.0  0.0 288956  6932 ?        Ssl  ago03   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+crimson+  2017  0.0  0.0  82728  6860 ?        Ss   ago03   0:00 /usr/lib/bluetooth/obexd
+crimson+  2390  6.5  6.6 4314804 525960 ?      Sl   ago03 221:13 /usr/lib/firefox/firefox
+crimson+  2454  0.3  3.0 3411760 238444 ?      Sl   ago03  10:13 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+  2549  0.0  2.7 21669996 214608 ?     Sl   ago03   3:06 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6046 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+  2601  0.4  2.8 3085088 225188 ?      Sl   ago03  14:06 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 6100 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+  4447  0.3  8.3 3552036 658276 ?      Sl   ago03  11:06 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 7319 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+  4491  0.0  2.6 3015288 206072 ?      Sl   ago03   1:34 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 7319 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+  7456  0.0  0.0 218084  6268 ?        Sl   ago03   0:00 /usr/lib/libreoffice/program/oosplash --writer file:///home/crimsonking/.cache/.fr-JnwLrq/Tutorial%201/Preguntas%20teo%C3%8C%C2%81ricas.docx
+crimson+  7475  0.0  2.4 1597104 193920 ?      Sl   ago03   0:06 /usr/lib/libreoffice/program/soffice.bin --writer file:///home/crimsonking/.cache/.fr-JnwLrq/Tutorial%201/Preguntas%20teo%C3%8C%C2%81ricas.docx --splash-pipe=5
+crimson+ 13346  0.0  0.0 421344  5128 ?        Sl   ago04   0:03 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+crimson+ 13349  0.0  0.0 524132  7580 ?        Sl   ago04   0:03 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+crimson+ 13355  0.0  0.0 421368  5244 ?        Sl   ago04   0:03 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/generic.conf
+crimson+ 13358  0.0  0.0 176232  2168 ?        Ssl  ago04   0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+crimson+ 13450  0.0  0.4 421412 36696 ?        Sl   ago04   0:24 /usr/lib/firefox/firefox -contentproc -parentBuildID 20190718161435 -prefsLen 9063 -prefMapSize 183834 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true rdd
+crimson+ 14083  0.1  2.4 1182800 192672 ?      SLl  ago04   3:01 /opt/google/chrome/chrome
+crimson+ 14090  0.0  0.0  14716   844 ?        S    ago04   0:00 cat
+crimson+ 14091  0.0  0.0  14716   736 ?        S    ago04   0:00 cat
+crimson+ 14094  0.0  0.7 444676 57432 ?        S    ago04   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f,
+crimson+ 14095  0.0  0.0  27356  4072 ?        S    ago04   0:00 /opt/google/chrome/nacl_helper
+crimson+ 14098  0.0  0.1 444676 14676 ?        S    ago04   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f,
+crimson+ 14120  0.1  1.6 600024 127512 ?       Sl   ago04   3:07 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=16440900567188276494,17119651579067611832,131072 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --gpu-preferences=IAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --service-request-channel-token=12542442841240956828
+crimson+ 14126  0.0  1.1 538672 87628 ?        SLl  ago04   0:12 /opt/google/chrome/chrome --type=utility --field-trial-handle=16440900567188276494,17119651579067611832,131072 --lang=es-419 --service-sandbox-type=network --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --service-request-channel-token=9455226423853723112 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 14205  0.0  1.7 841712 139392 ?       Sl   ago04   1:21 /opt/google/chrome/chrome --type=renderer --field-trial-handle=16440900567188276494,17119651579067611832,131072 --lang=es-419 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10621080566624139868 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 19328  0.0  0.1 444636  8108 ?        Sl   ago05   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+crimson+ 19352  0.0  0.0 381488  7776 ?        Sl   ago05   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/5
+crimson+ 22051  1.3  4.2 3040956 335972 ?      Sl   ago05   2:09 /usr/lib/firefox/firefox -contentproc -childID 26 -isForBrowser -prefsLen 9190 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+ 22393  2.8  3.1 3212908 244984 ?      Sl   ago05   3:59 /snap/spotify/36/usr/share/spotify/spotify
+crimson+ 22658  0.0  0.7 537440 60976 ?        S    ago05   0:00 /snap/spotify/36/usr/share/spotify/spotify --type=zygote --no-sandbox --log-file=/snap/spotify/36/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --lang=en-US
+crimson+ 22670  0.7  1.6 993584 126088 ?       Sl   ago05   1:03 /snap/spotify/36/usr/share/spotify/spotify --type=gpu-process --field-trial-handle=13262435856089732562,14002880489722796135,131072 --disable-features=ExtendedMouseButtons,NetworkService --no-sandbox --log-file=/snap/spotify/36/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --lang=en-US --gpu-preferences=KAAAAAAAAAAgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --log-file=/snap/spotify/36/usr/share/spotify/debug.log --service-request-channel-token=7933969505219395196
+crimson+ 22692  2.7  6.4 1831488 508772 ?      Sl   ago05   3:54 /snap/spotify/36/usr/share/spotify/spotify --type=renderer --no-sandbox --log-file=/snap/spotify/36/usr/share/spotify/debug.log --field-trial-handle=13262435856089732562,14002880489722796135,131072 --disable-features=ExtendedMouseButtons,NetworkService --lang=es-419 --log-file=/snap/spotify/36/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --disable-spell-checking --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1294737928470430682 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 22728  0.0  0.2 561724 23372 ?        Sl   ago05   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/6
+crimson+ 22734  0.0  0.0   4628   768 ?        S    ago05   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+crimson+ 22735  0.0  0.0 273416  6188 ?        Sl   ago05   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+crimson+ 23305  0.2  1.5 760104 125164 ?       Sl   ago05   0:16 /opt/google/chrome/chrome --type=renderer --field-trial-handle=16440900567188276494,17119651579067611832,131072 --lang=es-419 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=15141226163413174543 --renderer-client-id=64 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 23700  0.1  1.8 767640 145652 ?       Sl   ago05   0:08 /opt/google/chrome/chrome --type=renderer --field-trial-handle=16440900567188276494,17119651579067611832,131072 --lang=es-419 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=11336300791496522624 --renderer-client-id=66 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 23711  0.0  0.8 663944 70364 ?        Sl   ago05   0:01 /opt/google/chrome/chrome --type=ppapi --field-trial-handle=16440900567188276494,17119651579067611832,131072 --ppapi-flash-args --lang=es-419 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --service-request-channel-token=8819743297055876377
+crimson+ 23983  0.0  1.3 104013972 104376 ?    Sl   ago05   0:02 atril /home/crimsonking/.cache/.fr-IttNrp/Instrucciones para elaboraci¢n del documento de requerimientos.pdf
+crimson+ 23990  0.0  0.0 187768  4256 ?        Sl   ago05   0:00 /usr/lib/atril/atrild
+crimson+ 23999  0.0  0.4 102752372 33084 ?     SLl  ago05   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 5 16
+crimson+ 24203  0.0  0.6 671780 53864 ?        Sl   ago05   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=16440900567188276494,17119651579067611832,131072 --lang=es-419 --enable-crash-reporter=8501b012-4888-4475-87ac-dc6bddaeca3f, --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=16307194323437929249 --renderer-client-id=69 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+crimson+ 24754  0.0  1.7 104062444 139108 ?    Sl   ago05   0:02 atril /home/crimsonking/.cache/.fr-l1LKhV/Mavin_A_Rolls_Royce_EARS_RE09_Paperaccepted.pdf
+crimson+ 24767  0.0  0.4 85975156 32708 ?      SLl  ago05   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 5 16
+crimson+ 25083  0.0  0.4 988552 36904 ?        Sl   ago05   0:02 engrampa /home/crimsonking/Downloads/1533771217-Tut1_Pablo_Rodriguez.tar.gz
+crimson+ 25358  0.1  0.5 1023028 40324 ?       Sl   00:02   0:04 mate-terminal
+crimson+ 25365  0.0  0.0  30120  5672 pts/0    Ss   00:02   0:00 bash
+crimson+ 26155  0.7  2.0 2692908 164688 ?      Sl   00:32   0:03 /usr/lib/firefox/firefox -contentproc -childID 38 -isForBrowser -prefsLen 9257 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+ 26220  0.2  0.5 1041948 43020 ?       Sl   00:33   0:01 pluma /home/crimsonking/.cache/.fr-QPbrci/emb/Ejercicio1.txt
+crimson+ 26310  0.1  1.0 2583872 84708 ?       Sl   00:37   0:00 /usr/lib/firefox/firefox -contentproc -childID 40 -isForBrowser -prefsLen 9257 -prefMapSize 183834 -parentBuildID 20190718161435 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2390 true tab
+crimson+ 26429  0.0  0.0  46852  3612 pts/0    R+   00:39   0:00 ps -ux
